@@ -1,0 +1,95 @@
+/*footer시작*/
+footer .top{
+    background-color: #f5f5f5;
+    padding: 60px 0px;
+}
+footer .top .wrap{
+    display: flex;
+    width: 1300px;
+    margin: 0px auto;
+}
+footer .top .wrap .left{
+    width: 33%;
+}
+footer .top .wrap .left h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #5392f9;
+    letter-spacing: 1px;
+}
+footer .top .wrap .left p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 20px;
+    line-height: 25px;
+}
+footer .top .wrap .contact{
+    width: 33%;
+    margin-left: 20%;
+}
+footer .top .wrap .contact h1{
+    color: #5392f9;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: bold;
+}
+footer .top .wrap .contact p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: .5px;
+    margin-top: 20px;
+}
+footer .top .wrap .right{
+    width: 33%;
+    margin-left: 15%;
+}
+footer .top .wrap .right h1{
+    color: #5392f9;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: bold;
+}
+footer .top .wrap .right p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+footer .top .wrap .right ul li{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+footer .top .wrap .right ul li a i{
+    font-size: 40px;
+    color: #5392f9;
+}
+
+footer .bottom{
+    background-color: #efeeee;
+    padding: 30px 0px;
+}
+footer .bottom .wrap{
+    width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .bottom .wrap ul li{
+    margin-right: 40px;
+}
+footer .bottom .wrap ul li a{
+    color: #333;
+    font-size: 17px;
+    font-weight: 100;
+}
+footer .bottom .wrap p{
+    color: #888;
+    font-size: 12px;
+    letter-spacing: .5px;
+    text-align: right;
+}
+/* footer끝 */
