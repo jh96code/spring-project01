@@ -1,0 +1,171 @@
+@charset "UTF-8";
+html,body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+main{
+	padding-top : 100px;
+	min-height: 700px;
+}
+
+  /* 초기세팅 시작 */
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 1.5;
+    outline: 0px;
+}
+ul, ol{
+    list-style: none;
+    font-size: 0px;
+}
+
+ul li, ol li{
+    display: inline-block;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none !important;
+    color: black;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 초기세팅 끝 */
+
+/* header 시작 */
+header{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    background-color: #fff;
+    width: 100vw;
+    transition: all .5s;
+}
+nav{
+    width: 1300px;
+    margin: 0px auto;
+    
+}
+nav .left{
+    margin-top: 10px;
+}
+nav .left li{
+    margin: 0px 10px;
+    line-height: 50px;
+}
+nav .left li a{
+    line-height: 50px;
+    font-size: 25px;
+}
+nav .left li a h2{
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+nav .left li a:hover{
+    font-weight: bold;
+}
+nav .right{
+    margin-top: 10px;
+}
+nav .right li{
+    margin: 10px;
+}
+nav .right li span{
+	font-weight: 100;
+}
+
+ nav .cs{
+            position: absolute;
+            top: 45%;
+            transform: translateY(-50%);
+            right: 8%;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 5px 10px;
+            letter-spacing: 1px;
+        }
+        nav .cs:hover{
+            background-color: #5392f9;
+            color: #fff;
+        }
+/* header 끝*/
+
+
+
+/*banner*/
+#spots{
+    width: 100vw;
+    height: 100px;
+}
+
+.banner{
+    background-image: url(../img/jin.jpg);
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+}
+
+.title_text{
+    height: 100px;   
+    font-family: 'Gowun Batang', serif;
+    line-height: 100px;
+    font-weight:bolder;
+}
+
+/*search*/
+#search{
+    padding-top: 10px;
+    border-bottom : 1px solid black;
+    padding-bottom:10px ;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.search_text{
+    font-family: 'Gowun Batang', serif;
+    padding: 0 5px;
+    margin: 0 5px;
+}
+.searchbar{
+    padding:0px 10px;
+    margin:0 5px;
+}
+
+.searchbutton{
+    padding:0px 10px;
+    margin:0 5px;
+    font-family: 'Gowun Batang', serif;
+}
+
+.lists{
+	display:flex;
+	justify-content:space-around;
+	aling-items:center;
+}
+.rigthfix{
+	float: right;
+	padding:0 20px;
+}
+/*list*/
+
+
+tr.reply{
+  	display:none;
+}
+tr.view{
+	display: table-row;
+}
+
