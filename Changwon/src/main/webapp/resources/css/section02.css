@@ -1,0 +1,58 @@
+
+
+/* 섹션2 css 시작 */
+#section2{
+    padding: 100px 0px;
+    background-color : #f8f8f8;
+}
+#section2 .section-title{
+    margin-bottom: 90px;
+}
+#section2 .section-title h2{
+    font-weight: bold;
+    font-size: 45px;
+}
+#section2 .section-title span{
+    font-size: 20px;
+    color: #5392f9;;
+    font-weight: bold;
+}
+
+#section2 .col-lg-4{
+    margin-bottom: 50px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all .6s;
+}
+#section2 .col-lg-4 a{}
+#section2 .col-lg-4 .service-item{
+    padding: 50px 30px;
+    transition: .3s;
+}
+#section2 .col-lg-4 .service-item:hover{
+    background-color:#5392f9;
+}
+#section2 .col-lg-4 .service-item i{
+    font-size: 50px;
+    color: #5392f9;
+    margin-bottom: 30px;
+}
+#section2 .col-lg-4 .service-item:hover i{
+    color: #fff;
+}
+#section2 .col-lg-4 .service-item h4{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#section2 .col-lg-4 .service-item:hover h4{
+    color: #fff;
+}
+#section2 .col-lg-4 .service-item p{
+    font-size: 15px;
+    color: #777;
+}
+#section2 .col-lg-4 .service-item:hover p{
+    color: #fff;
+}
+/* 섹션2 css 끝 */
